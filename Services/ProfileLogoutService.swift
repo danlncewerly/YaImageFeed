@@ -1,9 +1,3 @@
-//
-//  ProfileLogoutService.swift
-//  imageFeed
-//
-//  Created by Кирилл Дробин on 12.09.2024.
-//
 
 import UIKit
 import WebKit
