@@ -1,9 +1,3 @@
-//
-//  ProfileLogoutService.swift
-//  imageFeed
-//
-//  Created by Кирилл Дробин on 12.09.2024.
-//
 
 import UIKit
 import WebKit
@@ -13,7 +7,6 @@ final class ProfileLogoutService {
     private let oAuth2TokenStorage = OAuth2TokenStorage.shared
     private let splashViewController = SplashViewController.shared
     private let imagesListService = ImagesListService.shared
-    
     
     static let shared = ProfileLogoutService()
     

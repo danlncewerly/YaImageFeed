@@ -80,7 +80,7 @@ extension SplashViewController: AuthViewControllerDelegate {
         vc.dismiss(animated: true)
         
         guard let token = oAuth2TokenStorage.token else {
-            print("token not available ")
+            print("token error ")
             return
         }
         fetchProfile(token)
